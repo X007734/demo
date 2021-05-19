@@ -1,20 +1,85 @@
 {
-  "renewalDetails": {
-    "item": [
-      {
-        "accountNumber": "1005388680",
-        "SalesOrg": "LRA",
-        "CompanyName": "Company Name",
-        "id": "0004582083",
-        "referenceNumber": "0050916486",
-        "noticeDate": "2020-06-28",
-        "renewalDate": "2020-09-28",
-        "url": "http://opentextprod.int.thomsonreuters.com:8080/archive?get&pVersion=0045&contRep=BP&docId=0050569B51261EDB9DD40A93AC96B63E",
-        "title": "Mr",
-        "recipientName": "Eric Jane",
-        "jobTitle": "Sr Account Rep",
-        "email": "Eric.Jane@abc.com"
-      }
+                "BOOMIHeader": {
+                                "companyId": "WEST"
+                },
+                "Notification": {
+                                "statusCode": "200",
+                                "statusDescription": "Success",
+                                "trackingId": "i0adc422f0000016176572737f91480e4",
+                                "statusDetailMessage": ""
+                },
+    "Header": {
+        "AuthenticationToken": "",
+        "ContextualInformation": "",
+        "ProductIdentifier": "MISSOA",
+        "SessionToken": "",
+        "SlideInformation": "",
+        "UserHostIpAddress": "10.204.52.1",
+        "Version": "1"
+    },
+    "ServiceStatus": {
+        "ElapsedTime": "0",
+        "StartTime": "\/Date(1619771564970-0500)\/",
+        "StatusCode": "0",
+        "StatusDescription": ""
+    },
+    "Trace": {
+        "ExecutionType": "",
+                                "ParentGuid": "e93e2bab1cba4555880b2f9a916c0cae",
+       "Product": "MISSOA",
+        "RootGuid": "e93e2bab1cba4555880b2f9a916c0cae",
+        "ServerInformation": "C334ZMHOPASQF\/36\/17577",
+        "SessionGuid": "e4f997615c5242e0a62a44b2827f96df",
+        "TransactionGuid": "6b57626379394d1d9d0439a521fa59b2",
+                                "UserGuid": ""
+    },
+    "Results": [
+        {
+            "Criteria": {
+                "EmailAddress": "FEBTest5.corp1.user1@mailinator.com",
+                "FirstName": "",
+                "Identifier": "",
+                "LastName": "",
+                "ProductCode": "",
+                "RegistrationKey": "",
+                "Username": ""
+            },
+            "Profiles": [
+                {
+                    "EmailAddress": "FEBTest5.corp1.user1@mailinator.com",
+                    "FirstName": "TEST1",
+                    "Identifier": "235ffaaa644a403e9bf2c1ab598fae2b",
+                    "LastName": "USER1",
+                    "Password": "",
+                    "PasswordExpirationDate": "\/Date(253370786399999-0600)\/",
+                    "PasswordLifetime": "0",
+                    "ProfileType": "Normal",
+                    "RegisteredProducts": [
+                        {
+                            "LastAccessedDate": "",
+                            "ProductCode": "CBT",
+                            "RegistrationKeys": [
+                                {
+                                    "EPaymentMethod": "0",
+                                    "EPaymentSupportType": "",
+                                    "IsPreferred": "true",
+                                    "Name": "TEST",
+                                    "Properties": [
+                                        {
+                                            "Key": "PrismGuid",
+                                            "Value": "i0accd0bb00000177d91dc8d1e9a8f424"
+                                        }
+                                    ],
+                                    "RegistrationKey": "2550670-NRSQG1",
+                                    "ValidationState": "Valid"
+                                }
+                            ]
+                        }
+                    ],
+                    "SecurityQuestions": [],
+                    "Username": "FEBTest5.corp1.user1@mailinator.com"
+                }
+            ]
+        }
     ]
-  }
 }
